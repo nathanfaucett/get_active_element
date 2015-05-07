@@ -5,7 +5,10 @@ var isDocument = require("is_document"),
 var document = environment.document;
 
 
-module.exports = function getActiveElement(ownerDocument) {
+module.exports = getActiveElement;
+
+
+function getActiveElement(ownerDocument) {
     ownerDocument = isDocument(ownerDocument) ? ownerDocument : document;
 
     try {
@@ -13,4 +16,4 @@ module.exports = function getActiveElement(ownerDocument) {
     } catch (e) {
         return ownerDocument.body;
     }
-};
+}
