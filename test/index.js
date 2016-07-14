@@ -1,5 +1,5 @@
 var tape = require("tape"),
-    focusNode = require("focus_node"),
+    focusNode = require("@nathanfaucett/focus_node"),
     getActiveElement = require("..");
 
 

@@ -1,7 +1,7 @@
 {
-  "name": "get_active_element",
+  "name": "@nathanfaucett/get_active_element",
   "version": "0.0.1",
-  "description": "get active element for the browser and node.js",
+  "description": "returns element in focus if there is one",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/get_active_element.git"
@@ -9,7 +9,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "npm run test-browser-local",
-    "test-browser-local": "zuul --local 8080 --ui tape -- ./test"
+    "test-browser-local": "zuul --local 9999 --ui tape -- ./test"
   },
   "keywords": [
     "get_active_element",
@@ -19,16 +19,16 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.0",
     "zuul": "^3.3.0",
-    "focus_node": "git://github.com/nathanfaucett/focus_node.git"
+    "@nathanfaucett/focus_node": "^0.0.1"
   },
   "dependencies": {
-    "environment": "git://github.com/nathanfaucett/environment.git",
-    "is_document": "git://github.com/nathanfaucett/is_document.git"
+    "@nathanfaucett/environment": "^0.0.1",
+    "@nathanfaucett/is_document": "^0.0.1"
   }
 }

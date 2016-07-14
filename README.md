@@ -1,4 +1,4 @@
 get_active_element
 =======
 
-get active element for the browser and node.js
+returns element in focus if there is one
