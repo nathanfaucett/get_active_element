@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/get_active_element",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "returns element in focus if there is one",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "@nathanfaucett/focus_node": "^0.0.1"
   },
   "dependencies": {
-    "@nathanfaucett/environment": "^0.0.1",
+    "@nathanfaucett/environment": "^0.0.2",
     "@nathanfaucett/is_document": "^0.0.1"
   }
 }
